@@ -83,15 +83,16 @@ public class ControllerEXERCISE : MonoBehaviour
         // TASK 2:
         // part a: get the Horizontal axis input and assign it to xInput below
         // HINT: xInput = Input GetAxis Horizontal
+        xInput = Input.GetAxis("Horizontal");
+        Debug.Log(xInput);
 
 
-        
 
         // TASK 2:
         // part b: get the Vertical axis input and assign it to yInput below
         // HINT: yInput = Input GetAxis Vertical
-
-
+        yInput = Input.GetAxis("Vertical");
+        Debug.Log(yInput);
 
 
         // torque is a vector 3 for the rotational force in each direction (x,y,z) created from our input above
@@ -102,13 +103,13 @@ public class ControllerEXERCISE : MonoBehaviour
         // TASK 3:
         // add the torque to our rigidbody as a rotational force using AddTorque below
         // HINT: body AddTorque torque
-
+        body.AddTorque(torque);
 
 
         // TASK 4:
         // get the Fire1 Button input from and assign it to fire1Pressed below
         // HINT: fire1Pressed = Input GetButton Fire1
-
+        fire1Pressed = Input.GetButton("Fire1");
 
 
         // If Fire1 is pressed, apply the jump force to the rigidbody
@@ -123,7 +124,8 @@ public class ControllerEXERCISE : MonoBehaviour
             // add the jump force to our rigidbody as a positional force using AddForce below
             // Use ForceMode.Impulse as the second parameter to add a strong, instant force, suitable for jumping
             // HINT: body AddForce jumpForce ForceMode.Impulse
-
+            body.AddForce(jumpForce, ForceMode.Impulse);
+            Debug.Log(fire1Pressed);
 
 
         }

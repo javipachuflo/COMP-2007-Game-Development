@@ -9,6 +9,10 @@ using UnityEngine;
 
 public class WinCollider : MonoBehaviour
 {
+
+    public Rigidbody rb;
+    public float jumpPower = 15f;
+
     // set a starting colour for our win collider
     public Color startColour = Color.green;
 
@@ -21,6 +25,9 @@ public class WinCollider : MonoBehaviour
 
     private void Start()
     {
+        // [my comment] only need this if the rb is inside the object already.
+        // rb = GetComponent<Rigidbody>();
+
         // use GetComponent to fill our "meshRenderer" field
         // NOTE: specify the type of the component in the angle backets <MeshRenderer>
         // https://docs.unity3d.com/2021.2/Documentation/ScriptReference/Component.GetComponent.html
@@ -28,6 +35,13 @@ public class WinCollider : MonoBehaviour
 
         // change the material colour on our mesh renderer to the start colour fields value
         meshRenderer.material.color = startColour;
+    }
+
+    private void Jump()
+    {
+        Vector3 jumpForce = new Vector3(0, jumpPower, 0);
+        rb.AddForce(jumpForce, ForceMode.Impulse);
+
     }
 
     // when something collides with us, print the win message and change the colour of the material on our mesh renderer
@@ -38,5 +52,6 @@ public class WinCollider : MonoBehaviour
 
         // change the material colour on our mesh renderer to the win colour fields value
         meshRenderer.material.color = winColour;
+        Jump();
     }
 }
