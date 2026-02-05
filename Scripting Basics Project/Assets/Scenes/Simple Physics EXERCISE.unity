@@ -435,7 +435,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490758817}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.36, y: 1.74, z: 5.9}
+  m_LocalPosition: {x: -8.12, y: 1.74, z: -3.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -974,7 +974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 555337513}
-  jumpPower: 0.5
+  jumpPower: 15
   startColour: {r: 1, g: 1, b: 1, a: 1}
   winColour: {r: 0.017205596, g: 1, b: 0, a: 1}
 --- !u!1 &1463617004
