@@ -10,6 +10,8 @@ These projects were built using **Unity (2021.2.8f1)** and **C#**.
    * Aim: Learn the basics of how physics-based movement systems work and the use of `OnCollisionEnter`.
 2. **Modelling with Probuilder**
    * Aim: Learn the basics of ProBuilder.
+3. **Rotation Examples**
+   * Aim: Learn the basics of rotating GameObjects in multiple different ways
 
 ---
 
