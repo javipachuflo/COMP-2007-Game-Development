@@ -49,7 +49,7 @@ public class Rotate : MonoBehaviour
         // calculate the movement in the direction per update and apply using transform.Rotate
         // NOTE: Rotate takes values in degrees, not radians
         // NOTE: the rotation is LOCAL to the transform by default!
-        child.Rotate(direction * degreesPerUpdate);
+        //child.Rotate(direction * degreesPerUpdate);
 
         // STRATEGY 2: rotate on the WORLD direction
         // rotate using WORLD rotation
@@ -59,7 +59,7 @@ public class Rotate : MonoBehaviour
         // STRATEGY 3: ORBIT a target position
         // rotate around a target point
         // RotateAround will ORBIT the target along our direction axis!
-        //child.RotateAround(target.position, direction, degreesPerUpdate);
+        child.RotateAround(target.position, direction, degreesPerUpdate);
     }
 }
 
