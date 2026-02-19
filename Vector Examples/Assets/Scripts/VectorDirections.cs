@@ -23,7 +23,7 @@ public class VectorDirections : MonoBehaviour
     void Update()
     {
         // look at the target - calculates the direction for you!
-        //transform.LookAt(target);
+        transform.LookAt(target);
 
         // distance using Vector3 distance
         //distance = Vector3.Distance(transform.position, target.position);
