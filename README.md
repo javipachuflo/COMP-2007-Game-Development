@@ -12,6 +12,10 @@ These projects were built using **Unity (2021.2.8f1)** and **C#**.
    * Aim: Learn the basics of ProBuilder.
 3. **Rotation Examples**
    * Aim: Learn the basics of rotating GameObjects in multiple different ways
+4. **Vector Examples**
+   * Aim: Learning the basics of working with vectors, such as normalisation, distances, etc
+6. **Lighting in Unity**
+   * Aim: To learn how to handle Unity lights
 
 ---
 
