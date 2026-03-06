@@ -46,7 +46,7 @@ public class Raycasting : MonoBehaviour
      
     // an array of hits with a pre-set size
     // used in the alloc examples
-    private RaycastHit[] allocatedHits = new RaycastHit[2];
+    private RaycastHit[] allocatedHits = new RaycastHit[10]; // max number of targets it can save
      
     void Start() 
     { 
@@ -62,13 +62,13 @@ public class Raycasting : MonoBehaviour
         };
 
         // 1. a single raycast
-        SingleRaycast();
+        //SingleRaycast();
 
         // 2. multiple raycast
         //MultipleRaycast();
 
         // 3. raycast alloc
-        //RaycastAlloc();
+        RaycastAlloc();
 
         // 4. single spherecast
         //SingleSpherecast();
