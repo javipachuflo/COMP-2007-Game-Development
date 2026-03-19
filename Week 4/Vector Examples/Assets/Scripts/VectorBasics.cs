@@ -16,7 +16,7 @@ public class VectorBasics : MonoBehaviour
     void Start()
     {
         // adding two vectors
-        transform.position = vectorA + vectorB;
+        //transform.position = vectorA + vectorB;
 
 
         // subtracting two vectors
@@ -34,9 +34,9 @@ public class VectorBasics : MonoBehaviour
         // multiplying by a float
         //transform.position = vectorA * value;
 
-        // dividing by a float
-        // NOTE: unity do not like dividing by zero, may give warnings
-        //transform.position = vectorA / value;
+        //dividing by a float
+        //NOTE: unity do not like dividing by zero, may give warnings
+        transform.position = vectorA / value;
 
     }
 
