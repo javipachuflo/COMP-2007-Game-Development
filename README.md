@@ -61,3 +61,9 @@ This repository contains the work and projects completed during the **COMP 2007*
 | UI Art | **Create UI Art in Unity** | *[Add contents]* | *[Add your aim here]* |
 | UI Systems | **UI Card Game Examples** | *[Add contents]* | *[Add your aim here]* |
 | Audio | **Unity Audio** | *[Add contents]* | *[Add your aim here]* |
+
+### Week 8
+| Category | Project Name | Contents | Objective / Aim |
+| :--- | :--- | :--- | :--- |
+| AI Navigation | **Unity Navigation** | *Few scenes with different types of using Unity's navigation tool* | *Understand different use cases for Unity's navigation tool* |
+| Shaders | **Unity Shaders** | *A scene with a few examples of shaders* | *To understand what shaders are and what they can do* |
