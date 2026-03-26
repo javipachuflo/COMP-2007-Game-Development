@@ -14284,6 +14284,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: eb99d9fcdf36a994da0a6a6bc9239288, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 53f179cc2ccbd0c4d942c543a03d15bd, type: 2}
     - target: {fileID: 919132149155446097, guid: eb99d9fcdf36a994da0a6a6bc9239288, type: 3}
       propertyPath: m_Name
       value: Sync testing
