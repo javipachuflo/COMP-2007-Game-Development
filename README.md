@@ -57,10 +57,10 @@ This repository contains the work and projects completed during the **COMP 2007*
 ### Week 7
 | Category | Project Name | Contents | Objective / Aim |
 | :--- | :--- | :--- | :--- |
-| UI Design | **Unity UI Examples** | *[Add contents]* | *[Add your aim here]* |
-| UI Art | **Create UI Art in Unity** | *[Add contents]* | *[Add your aim here]* |
-| UI Systems | **UI Card Game Examples** | *[Add contents]* | *[Add your aim here]* |
-| Audio | **Unity Audio** | *[Add contents]* | *[Add your aim here]* |
+| UI Design | **Unity UI Examples** | Examples for: Buttons, Canvas, Dropdowns, Layouts (grid, vertical, horizontal layouts), Panels, Scrollables, Sliders, Text and Toggles | To learn the basics of UI and the options available |
+| UI Art | **Create UI Art in Unity** | Good-looking examples of UI created bit by bit | To look at and understan what good-looking UI is made out of |
+| UI Systems | **UI Card Game Examples** | A matching card game | To understand how oto put different UI mechanics together to create a simple game only using UI |
+| Audio | **Unity Audio** | Few scenes demonstrating: Basic ways of interacting with audio (buttons), Using an audio mixer -> basics and advanced | To learn how to use audio within Unity |
 
 ### Week 8
 | Category | Project Name | Contents | Objective / Aim |
@@ -73,3 +73,7 @@ This repository contains the work and projects completed during the **COMP 2007*
 | :--- | :--- | :--- | :--- |
 | Terrain | **Unity Terrain Tools** | The basics of terrain and heightmaps | Learn the basics of handling Unity Terrain |
 | Packages and Assets | **Game Ready Assets Project** | A test project where I have imported different packages (most useful one is a "pickup on touch" package) | Learn how to import assets from the package manager or otherwise, how to organise a project for ease of access to GameObjects, and the requirements for the creatioin of game-ready assets |
+
+---
+
+This is also secretly a test to see how many Basic Unity Projects I can place within one repo! 🤫
