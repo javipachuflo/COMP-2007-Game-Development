@@ -72,4 +72,4 @@ This repository contains the work and projects completed during the **COMP 2007*
 | Category | Project Name | Contents | Objective / Aim |
 | :--- | :--- | :--- | :--- |
 | Terrain | **Unity Terrain Tools** | The basics of terrain and heightmaps | Learn the basics of handling Unity Terrain |
-| Packages and Assets | **Game Ready Assets Project** | A test project where you can import different packages | Learn how to import assets from the package manager or otherwise, how to organise a project for ease of access to GameObjects, and the requirements for the creatioin of game-ready assets |
+| Packages and Assets | **Game Ready Assets Project** | A test project where I have imported different packages (most useful one is a "pickup on touch" package) | Learn how to import assets from the package manager or otherwise, how to organise a project for ease of access to GameObjects, and the requirements for the creatioin of game-ready assets |
