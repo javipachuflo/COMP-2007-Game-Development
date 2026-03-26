@@ -44,15 +44,15 @@ This repository contains the work and projects completed during the **COMP 2007*
 ### Week 5
 | Category | Project Name | Contents | Objective / Aim |
 | :--- | :--- | :--- | :--- |
-| Animation | **Animation with Unity** | *[Add contents]* | Add animation to the Unity project. |
-| Controllers | **First Person Controller** | *[Add contents]* | Add a functional first-person controller script. |
-| 3D Physics | **3D Physics Example** | *[Add contents]* | *[Add your aim here]* |
+| Animation | **Animation with Unity** | A walking character animation scene and another scene with two types of animation for doors and an interaction for triggering the door animation with a collider | Learn how animations work within Unity and know how to use the Animator |
+| Controllers | **First Person Controller** | A .cs script for a first person character controller | To know how a functional first-person controller script works. |
+| 3D Physics | **3D Physics Example** | Examples for: colliders (simple shape colliders, wheel colliders), Rigidbodies (and their collisions, plus different interactions), physics components (physics materials, hinge joints), Triggers | To understand various ways of using and interacting with Unity's 3D Physics |
 
 ### Week 6
 | Category | Project Name | Contents | Objective / Aim |
 | :--- | :--- | :--- | :--- |
-| Mechanics | **Game Mechanics Examples** | *[Add contents]* | *[Add your aim here]* |
-| Optimisation | **Scene Optimisation & Debugging** | *[Add contents]* | *[Add your aim here]* |
+| Mechanics | **Game Mechanics Examples** | Checkpoints (from one point to the next), raycasting (registering what the raycast hit, doing something to what the raycast hit), coroutines + Example project: Angry Birds 3D | To understand various important game mechanics |
+| Optimisation | **Scene Optimisation & Debugging** | LOD example scene and Oclusion Culling | To usnderstand how using LODs and Oclusion Culling can optimise a game |
 
 ### Week 7
 | Category | Project Name | Contents | Objective / Aim |
@@ -65,5 +65,11 @@ This repository contains the work and projects completed during the **COMP 2007*
 ### Week 8
 | Category | Project Name | Contents | Objective / Aim |
 | :--- | :--- | :--- | :--- |
-| AI Navigation | **Unity Navigation** | *Few scenes with different types of using Unity's navigation tool* | *Understand different use cases for Unity's navigation tool* |
-| Shaders | **Unity Shaders** | *A scene with a few examples of shaders* | *To understand what shaders are and what they can do* |
+| AI Navigation | **Unity Navigation** | Few scenes with different types of using Unity's navigation tool | Understand different use cases for Unity's navigation tool |
+| Shaders | **Unity Shaders** | A scene with a few examples of shaders | To understand what shaders are and what they can do |
+
+### Week 9
+| Category | Project Name | Contents | Objective / Aim |
+| :--- | :--- | :--- | :--- |
+| Terrain | **Unity Terrain Tools** | The basics of terrain and heightmaps | Learn the basics of handling Unity Terrain |
+| Packages and Assets | **Game Ready Assets Project** | A test project where I have imported different packages (most useful one is a "pickup on touch" package) | Learn how to import assets from the package manager or otherwise, how to organise a project for ease of access to GameObjects, and the requirements for the creatioin of game-ready assets |
