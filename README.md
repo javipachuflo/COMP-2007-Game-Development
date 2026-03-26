@@ -65,5 +65,11 @@ This repository contains the work and projects completed during the **COMP 2007*
 ### Week 8
 | Category | Project Name | Contents | Objective / Aim |
 | :--- | :--- | :--- | :--- |
-| AI Navigation | **Unity Navigation** | *Few scenes with different types of using Unity's navigation tool* | *Understand different use cases for Unity's navigation tool* |
-| Shaders | **Unity Shaders** | *A scene with a few examples of shaders* | *To understand what shaders are and what they can do* |
+| AI Navigation | **Unity Navigation** | Few scenes with different types of using Unity's navigation tool | Understand different use cases for Unity's navigation tool |
+| Shaders | **Unity Shaders** | A scene with a few examples of shaders | To understand what shaders are and what they can do |
+
+### Week 9
+| Category | Project Name | Contents | Objective / Aim |
+| :--- | :--- | :--- | :--- |
+| Terrain | **Unity Terrain Tools** | The basics of terrain and heightmaps | Learn the basics of handling Unity Terrain |
+| Packages and Assets | **Game Ready Assets Project** | A test project where you can import different packages | Learn how to import assets from the package manager or otherwise, how to organise a project for ease of access to GameObjects, and the requirements for the creatioin of game-ready assets |
